@@ -27,7 +27,7 @@ const Sidebar = () => {
 		setTimeout(() => {
 			dispatch(hotelActions.resetState());
 			dispatch(hotelActions.setStep(0));
-		}, 5000);
+		}, 2500);
 	};
 
 	// Function to render the appropriate buttons based on the current step
