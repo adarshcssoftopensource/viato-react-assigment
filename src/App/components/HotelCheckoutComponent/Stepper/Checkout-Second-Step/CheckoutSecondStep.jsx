@@ -9,7 +9,8 @@ const CheckoutSecondStep = () => {
 
 	// Fetch hotel data on component mount
 	useEffect(() => {
-		fetch('http://localhost:5173/hotelData.json')
+		const URL = window.location.origin;
+		fetch(`${URL}/hotelData.json`)
 			.then(res => res.json())
 			.then(json => {
 				setRoomData([json]);
