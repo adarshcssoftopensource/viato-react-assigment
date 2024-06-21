@@ -1,0 +1,94 @@
+@import '../../../variables';
+
+.hotelCheckoutWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 62px;
+
+    .main_wrapper {
+        width: 100%;
+        display: flex;
+        background: $color-extra-bright;
+
+        .tabbing {
+            width: 100%;
+            max-width: calc(100% - 266px);
+            padding: 23px 60px 23px 28px;
+
+            .tab_inner_wrappper {
+                margin: 0 0 25px;
+                display: flex;
+                grid-column-gap: 70px;
+
+            }
+        }
+
+        .right_sidebar {
+            width: 100%;
+            max-width: 266px;
+            background-color: $color-light;
+            padding: 24px 24px 20px;
+            position: relative;
+            min-height: 422px;
+            padding-bottom: 81px;
+
+            h2 {
+                font: $font-h2;
+                padding: 0 0 6px;
+                margin: 0 0 20px;
+                display: inline-block;
+                width: auto;
+                border-bottom: 2px solid $color-primary;
+            }
+
+            button {
+                position: absolute;
+                bottom: 20px;
+                right: 21px;
+                z-index: 1;
+            }
+
+            button:nth-last-child(2) {
+                position: absolute;
+                left: 20px;
+                right: unset;
+            }
+
+            .booking_customer {
+                margin: 0 0 20px;
+
+                h5 {
+                    font: $font-h5;
+                    margin: 0 0 2px;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 2px 0 0;
+
+                    li {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            .price_detail {
+                text-align: right;
+                margin-top: 55px;
+
+
+                h4 {
+                    font: $font-h4;
+                    text-align: right;
+                }
+
+                p {
+                    font: $font-h5;
+                }
+            }
+
+        }
+    }
+}

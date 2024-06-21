@@ -1,0 +1,21 @@
+@import '../../../../variables';
+
+.wrapper {
+    display: flex;
+    gap: 10px 15px;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    p {
+        margin: 0;
+        font: $font-h4;
+    }
+
+
+    input {
+        border: 1px solid $color-smoke;
+        width:auto !important;
+    }
+
+}

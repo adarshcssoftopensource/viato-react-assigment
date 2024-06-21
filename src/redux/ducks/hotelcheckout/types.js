@@ -1,0 +1,9 @@
+export default class types {
+	static HOTELCHECKOUT = 'HOTELCHECKOUT';
+
+	static SET_STEP = `${types.HOTELCHECKOUT}/SET_STEP`;
+	static UPDATE_DATE = `${types.HOTELCHECKOUT}/UPDATE_DATE`;
+	static UPDATE_INPUT = `${types.HOTELCHECKOUT}/UPDATE_INPUT`;
+	static SELECT_OPTION = `${types.HOTELCHECKOUT}/SELECT_OPTION`;
+	static RESET_STATE = `${types.HOTELCHECKOUT}/RESET_STATE`;
+}

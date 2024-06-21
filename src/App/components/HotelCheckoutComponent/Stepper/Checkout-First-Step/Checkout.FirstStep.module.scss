@@ -1,0 +1,43 @@
+@import "../../../../../variables.scss";
+
+
+.HotelCheckout_first_step {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    margin: 0;
+
+    &>div {
+        &>p {
+            font: $font-h4;
+            margin: 0 0 10px;
+        }
+
+        >p+div {
+            padding: 13px 15px;
+            border: 1px solid $color-smoke;
+        }
+
+        .input_wrapper {
+            display: flex;
+
+            .wrapper {
+                width: 100%;
+
+
+            }
+        }
+
+    }
+
+
+    div:nth-of-type(2) {
+
+        .input_wrapper {
+            gap: 88px;
+
+        }
+    }
+
+
+}

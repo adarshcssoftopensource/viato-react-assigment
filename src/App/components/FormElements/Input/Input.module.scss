@@ -1,0 +1,37 @@
+@import '../../../../variables';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+
+    .label {
+        font: $font-h5;
+        margin-right: 40px;
+    }
+
+    .input {
+        font: $font-normal;
+        height: 39px;
+        box-sizing: border-box;
+        width: 120px;
+        border: 1px solid $color-smoke;
+        padding: 0 15px;
+        background-color: $color-light;
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: $color-secondary;
+        }
+
+        &[data-invalid="true"] {
+            border: 1px solid $color-invalid;
+
+            &:hover,
+            &:focus,
+            &:active {
+                border-color: $color-invalid-hover;
+            }
+        }
+    }
+}

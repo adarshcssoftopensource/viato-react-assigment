@@ -1,0 +1,40 @@
+@import "../../../../../variables.scss";
+
+
+.HotelCheckout_second_step {
+
+    &>div {
+        display: flex;
+        flex-flow: column;
+        gap: 25px;
+
+        .options {
+            &>p {
+                font: $font-h4;
+                margin: 0 0 10px;
+            }
+
+            div {
+                border: 1px solid $color-smoke;
+                padding: 0px 0 0 15px;
+                display: flex;
+                align-items: center;
+
+                p:nth-child(2) {
+                    font: $font-h4;
+                    margin-left: auto;
+                    margin-right: 90px;
+                }
+            }
+
+            div:not(:last-child) {
+                margin: 0 0 5px;
+            }
+        }
+    }
+
+
+
+
+
+}

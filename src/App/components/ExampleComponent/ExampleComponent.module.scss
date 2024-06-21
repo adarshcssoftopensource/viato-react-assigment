@@ -1,0 +1,45 @@
+@import '../../../variables';
+
+.exampleComponent {
+	background-color: $color-extra-bright;
+	width: 500px;
+	margin: 200px auto 0;
+	box-sizing: border-box;
+	padding: 40px;
+
+	.info{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 30px;
+		box-sizing: border-box;
+		background-color: $color-light;
+
+		.amount{
+			font-weight: bold;
+		}
+	}
+
+	.button{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 60px;
+		margin-top: 15px;
+		background-color: $color-primary;
+		color: $color-light;
+		cursor: pointer;
+		transition: background-color .1s ease;
+		border: 0;
+		font: $font-normal;
+		font-weight: bold;
+
+		&:hover{
+			background-color: $color-primary-hover;
+		}
+
+		&:active{
+			background-color: $color-primary-active;
+		}
+	}
+}

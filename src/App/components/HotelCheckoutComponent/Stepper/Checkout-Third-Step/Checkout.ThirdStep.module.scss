@@ -1,0 +1,26 @@
+@import "../../../../../variables.scss";
+
+
+
+.HotelCheckout_third_step {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+
+    div.user_details {
+        display: flex;
+
+        label {
+            font: $font-h5;
+            width: 100%;
+            max-width: 146px;
+            margin-right: 40px;
+        }
+
+        div {
+            gap: 10px;
+            display: flex;
+        }
+
+    }
+}
